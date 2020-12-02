@@ -20,4 +20,3 @@ def solve_day2(entries):
 if __name__ == '__main__':
     entries = open('./input.txt', 'r').readlines()
     print('Part 1: {0}\nPart 2: {1}'.format(*solve_day2(entries)))
-    # print('Part 2: {0}'.format(solve_day1(entries, 3)))
